@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ninggc/Ch10ImageMorph.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ninggc/Ch15ImageWatermark.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ninggc/Ch1Introduction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ninggc/Ch2Digitization.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ninggc/Ch3Elements.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ninggc/Ch4GeomTrans.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ninggc/Ch5ImageTrans.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ninggc/Ch7ImageRestore.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ninggc/Ch8ImageSegment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/digits23.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/process/common/Common.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
