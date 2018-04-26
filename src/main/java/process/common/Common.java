@@ -21,6 +21,7 @@ public class Common extends Frame
 		int [] pix = new int[iw * ih];
 		try
 		{
+//			file:///D:/Something/Manual/java%201.6%20api/index.html
 		    PixelGrabber pg = new PixelGrabber(im, 0, 0, iw,  ih, pix, 0, iw);
 		    pg.grabPixels();
 		}
@@ -635,8 +636,9 @@ public class Common extends Frame
 	        out.flush();   
 	        out.close();   
         }   
-        catch(IOException e)   
-        {   
+        catch(IOException e)
+        {
+        	e.printStackTrace();
             System.out.println(e);   
         }   
     }

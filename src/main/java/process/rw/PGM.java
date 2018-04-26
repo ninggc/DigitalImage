@@ -84,7 +84,7 @@ public class PGM
 	  	    }while(c >= '0' && c <= '9');
 	  	    maxpix = k;
   	    }
-	  	catch(IOException e1){System.out.println("Exception!");}    	
+	  	catch(IOException e1){System.out.println("Exception!" + e1.getStackTrace());e1.printStackTrace();}
     }
     
     public void readPPMHeader(String name)
@@ -143,7 +143,7 @@ public class PGM
 	  	    }while(c >= '0' && c <= '9');
 	  	    maxpix = k;
   	    }
-	  	catch(IOException e1){System.out.println("Exception!");}    	
+	  	catch(IOException e1){System.out.println("Exception!" + e1.getStackTrace());e1.printStackTrace();}
     }
     
     /***************************************************************
@@ -179,7 +179,7 @@ public class PGM
 	            }
 	        } 
         }
-		catch(IOException e1){System.out.println("Exception!");} 
+		catch(IOException e1){System.out.println("Exception!" + e1.getStackTrace());e1.printStackTrace();}
 	  	
 		return pixels; 
     }

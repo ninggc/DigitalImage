@@ -549,7 +549,9 @@ class Ch11DigitRecog extends JFrame implements ActionListener
 		}			
 	    catch(FileNotFoundException e1)
 	    {
-	        System.err.println(e1);
+	    	e1.printStackTrace();
+
+			System.err.println(e1);
 	    }
 	    catch(IOException e2)
 	    {

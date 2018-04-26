@@ -10,7 +10,7 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/ninggc/Ch5ImageTrans.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/ninggc/Ch7ImageRestore.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/ninggc/Ch8ImageSegment.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/digits23.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/digits23.txt" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/src/main/java/process/common/Common.java" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>

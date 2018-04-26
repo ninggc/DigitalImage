@@ -137,7 +137,9 @@ public class FracCompress
 		} 
 		catch(IOException e2)
 		{
-		    System.err.println(e2);
+            e2.printStackTrace();
+
+            System.err.println(e2);
 		}     
         for (i = 0; i < IMAGESIZE / BLOCKSIZE; i++)
         {
@@ -305,10 +307,14 @@ public class FracCompress
                 }
                 catch(FileNotFoundException e1)
                 {
+                    e1.printStackTrace();
+
                     System.err.println(e1);
                 }
                 catch(IOException e2)
                 {
+                    e2.printStackTrace();
+
                     System.err.println(e2);
                 }    
                 num++;
@@ -435,7 +441,7 @@ public class FracCompress
                     }
                 }
             }
-            catch(IOException e1){System.out.println("Exception!");}
+            catch(IOException e1){System.out.println("Exception!" + e1.getStackTrace());e1.printStackTrace();}
         }
         return oImage;	             
     }

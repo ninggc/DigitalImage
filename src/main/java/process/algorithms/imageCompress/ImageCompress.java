@@ -89,11 +89,15 @@ public class ImageCompress
 		}			
 	    catch(FileNotFoundException e1)
 	    {
-	      System.err.println(e1);
+			e1.printStackTrace();
+
+			System.err.println(e1);
 	    }
 	    catch(IOException e2)
 	    {
-	      System.err.println(e2);
+			e2.printStackTrace();
+
+			System.err.println(e2);
 	    }
     }
     
@@ -134,7 +138,7 @@ public class ImageCompress
                }               
             }    	  	   
 	  	}
-	  	catch(IOException e1){System.out.println("Exception!");}
+	  	catch(IOException e1){System.out.println("Exception!" + e1.getStackTrace());e1.printStackTrace();}
 	  	
 	  	return pix; 
     }
@@ -250,11 +254,15 @@ public class ImageCompress
 		}			
 	    catch(FileNotFoundException e1)
 	    {
-	        System.err.println(e1);
+			e1.printStackTrace();
+
+			System.err.println(e1);
 	    }
 	    catch(IOException e2)
 	    {
-	        System.err.println(e2);
+			e2.printStackTrace();
+
+			System.err.println(e2);
 	    }
     }
     
@@ -320,7 +328,7 @@ public class ImageCompress
 	  	        } 	  	        	  	    	
 	  	    }            	  	   
 	  	}
-	  	catch(IOException e1){System.out.println("Exception!");}
+	  	catch(IOException e1){System.out.println("Exception!" + e1.getStackTrace());e1.printStackTrace();}
 	  	
 	  	return pix; 
     }
@@ -345,11 +353,15 @@ public class ImageCompress
 		}			
 	    catch(FileNotFoundException e1)
 	    {
-	        System.err.println(e1);
+			e1.printStackTrace();
+
+			System.err.println(e1);
 	    }
 	    catch(IOException e2)
 	    {
-	        System.err.println(e2);
+			e2.printStackTrace();
+
+			System.err.println(e2);
 	    }
     }
     
@@ -409,7 +421,7 @@ public class ImageCompress
 				old=inew;
 			}	  	        	  	   
 	  	}
-	  	catch(IOException e1){System.out.println("Exception!");}
+	  	catch(IOException e1){System.out.println("Exception!" + e1.getStackTrace());e1.printStackTrace();}
 	  	
 	  	for(int i = 0; i < iw*ih; i++)
 	  	{
@@ -462,11 +474,15 @@ public class ImageCompress
 		}
 		catch(FileNotFoundException e1)
 	    {
-	        System.err.println(e1);
+			e1.printStackTrace();
+
+			System.err.println(e1);
 	    }
 	    catch(IOException e2)
 	    {
-	        System.err.println(e2);
+			e2.printStackTrace();
+
+			System.err.println(e2);
 	    }
 	}
 	
@@ -585,8 +601,12 @@ public class ImageCompress
 		    rf.writeByte(0x00);		    
 		    rf.close();				
 		}			
-	    catch(FileNotFoundException e1) { System.err.println(e1); }
-	    catch(IOException e2) { System.err.println(e2); }
+	    catch(FileNotFoundException e1) {
+			e1.printStackTrace();
+			System.err.println(e1); }
+	    catch(IOException e2) {
+			e2.printStackTrace();
+			System.err.println(e2); }
     }
     
     public void dctCompress(int[] pixels, int iw, int ih)
@@ -747,7 +767,7 @@ public class ImageCompress
 	  	        } 	  	        	  	    	
 	  	    }            	  	   
 	  	}
-	  	catch(IOException e1){System.out.println("Exception!");}	  	
+	  	catch(IOException e1){System.out.println("Exception!" + e1.getStackTrace());e1.printStackTrace();}
 	  	return pix; 
     }      
 }
